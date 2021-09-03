@@ -4,10 +4,10 @@ const path = require('path')
 const dotenv = require('dotenv');
 dotenv.config();
 const app = express()
-// All urls goto to index.html in /dist folder [build folder]
-app.use("/", serveStatic(path.join(__dirname, '/dist')))
+// All urls goto to index.html in /build folder [build folder]
+app.use("/", serveStatic(path.join(__dirname, '/build')))
 app.get(/.*/, function (req, res) {
-res.sendFile(path.join(__dirname, '/dist/index.html'))
+res.sendFile(path.join(__dirname, '/build/index.html'))
 })
 const port = process.env.PORT || 8081;
 app.listen(port)
