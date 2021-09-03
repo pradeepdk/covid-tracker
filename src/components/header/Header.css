@@ -1,0 +1,37 @@
+.header {
+    padding: 15px 2%;
+    background: #0b1c24;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    z-index: 1;
+}
+.logoText {
+    color: #fff;
+    font-size: 22px;
+}
+.logoDiv {
+    float: left;
+    width: 200px;
+}
+.refreshedDiv {
+    float: right;
+    width : calc(100% - 250px);
+}
+.refreshedDiv p {
+    float: right;
+    color: #fff;
+    margin: 4px 20px 0 0;
+}
+
+.refreshButton {
+    float: right;
+    border: 1px solid #d1d3d4;
+    padding: 3px 8px;
+    border-radius: 3px;
+    cursor: pointer;
+    background: #eee;
+}
+.refreshButton:hover {
+    background: #ccc;
+}

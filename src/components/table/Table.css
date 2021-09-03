@@ -1,0 +1,43 @@
+.trackingTable {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+.trackingTable th {
+    font-size: 16px;
+}
+.trackingTable th , .trackingTable td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #dddddd;
+    position: relative;
+}
+.sortAscending {
+    background: url("./icons/chevron-up-solid.svg") no-repeat 4px 4px transparent;
+}
+.sortDescending {
+    background: url("./icons/chevron-down-solid.svg") no-repeat 4px 4px transparent;
+}
+.sortAscending,.sortDescending {
+    display: inline-block;
+    width:15px;
+    height: 15px;
+    margin: 0 0px 0 0;
+    cursor: pointer;
+    padding: 3px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    background-size: 60%;
+}
+.sortAscending:hover , .sortDescending:hover {
+    border:1px solid #ddd;
+}
+.iconsWrapper {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 60px;
+    height: 23px;
+    bottom: 0;
+    margin: auto;
+}

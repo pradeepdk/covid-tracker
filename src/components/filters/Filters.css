@@ -1,0 +1,20 @@
+.filterDiv {
+    overflow: hidden;
+}
+.eachFilterDiv {
+    width: 200px;
+    float: left;
+}
+.filterInput {
+    border: 1px solid #aaa;
+    padding: 5px;
+    border-radius: 5px;
+    width: 80%;
+}
+.rangeLabel {
+    color: #58595b;
+    margin: 3px 0;
+}
+.newConfirmedFilter {
+    width: 90%;
+}

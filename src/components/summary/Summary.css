@@ -1,0 +1,12 @@
+.eachSummarySection {
+    width: 150px;
+    float: left;
+    padding: 5px;
+}
+.summaryDiv {
+    overflow: hidden;
+    box-shadow: 0 0 3px 0px #aaa;
+    padding: 10px;
+    margin: 10px auto 20px;
+    background: #f3f3f3;
+}
